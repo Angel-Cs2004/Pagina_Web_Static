@@ -1,0 +1,62 @@
+
+body{
+    background:linear-gradient(0deg,rgb(251, 245, 253),rgb(183,55,183),rgb(251, 245, 253));
+    text-align: center;
+    font-family:"Comic Neue";
+
+}
+ul{
+    padding:100000;
+}
+
+img{
+    position:relative;
+    border-radius:10px;
+    max-width: 50%;
+    height: auto;
+}
+/* .mall{
+    width:400px;
+} */
+
+.info,.encuesta{
+    border-radius: 20px;
+    margin: 20px 20px;
+    border: 3px solid rgb(183, 55, 183);
+    background-color: rgba(219, 163, 241,0.5);
+    box-shadow:5px 5px 15px 5px rgb(203, 83, 250);
+    margin-bottom: 20px;
+}
+/* .encuesta{
+    border-radius: 10px;
+    background-color:rgba(129, 87, 212,0.3);
+    box-shadow: 5px 5px 15px 3px rgba(129, 87, 212,.7);
+} */
+.contenedor{
+    display: flex; /*dar mayor comodidad al manejar todo lo que muestra*/
+    flex-wrap: wrap;/*acceso a todo los hijos  reacomdo de los hijos*/
+     gap:50px; /*separacion de todos lo hijos */
+    justify-content: center;
+}
+.contenedor-img {
+    text-align: center; 
+    max-width: 200px; /* Limita el ancho de cada imagen y su descripción */
+}
+
+.title{
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: "Comic Neue";
+    text-shadow: 5px 5px rgba(179, 63, 225, 0.5);
+}
+
+.vin{
+    font-size: 30px;
+    text-align:center;
+    color:rgb(252, 249, 255)
+    
+}
+.block1{
+    background-color: rgb(206, 115, 239);
+    width:100%;
+}

@@ -1,0 +1,35 @@
+<html> = Contiene todo el documento HTML.
+<head> = Contiene información sobre la página (metadatos, enlaces, título, etc.).
+<body> = Contiene el contenido visible de la página.
+
+<h1> - <h6> = Encabezados, donde <h1> es el más grande y <h6> el más pequeño.
+<p> = Define un párrafo.
+<strong> = Texto en negrita.
+<em> = Texto en cursiva.
+<br> = Salto de línea.
+
+<hr> = Línea horizontal de separación.
+<a href="URL"> = Define un enlace a otra página o sitio web.
+<img src="URL" alt="Descripción"> = Inserta una imagen con un texto alternativo.
+    src = Define la ruta de la imagen.
+    alt = Texto alternativo que se muestra si la imagen no se carga.
+    width = Establece el ancho de la imagen en píxeles o porcentaje.
+    height = Define la altura de la imagen en píxeles o porcentaje.
+    title = Muestra un mensaje emergente al pasar el mouse sobre la imagen.
+    loading = Controla cómo se carga la imagen ('lazy' para carga diferida, 'eager' para carga inmediata).
+    style = Aplica estilos CSS directamente a la imagen.
+    class = Asigna una clase CSS a la imagen para estilos personalizados.
+    id = Identifica la imagen de forma única para CSS o JavaScript.
+
+<ul> = Lista no ordenada (con viñetas).
+<ol> = Lista ordenada (numerada).
+<li> = Elemento dentro de una lista.
+<table> = Define una tabla.
+<tr> = Fila de la tabla.
+<td> = Celda dentro de la fila.
+<th> = Encabezado de la tabla.
+<form> = Define un formulario.
+<input> = Campo de entrada en un formulario.
+<label> = Etiqueta para un campo de formulario.
+<button> = Botón interactivo dentro de un formulario.
+ notas del aprendizaje no hagas reir pednejo como es que tu vas hacer algo pque tiene gusto mut excentricos, por ejemplo en un princio 
