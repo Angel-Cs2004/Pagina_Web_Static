@@ -1,0 +1,58 @@
+.concat() => Sirve para concatenar dos cadenas_Similar a Python
+.startWith() => Verifica si () esta comeinza en cadena === . == como resultado tenemos un bool=// tambien .endWith()
+.includes() => Verifica si () estan dentro de la cadena
+.indexOf()=> Verifica en que posicion se encuentra la primera letra de () en la cadena// te bota un rango numerico 
+.lastIndexOf() => Verifica de manera inversa a indexOf// se obtiene un valor numerico.
+
+.padStart(cantidad,'valor a repetir') => repite la cantidad indicada en la cadena.  
+.padEnd(cantidad,'valor a repetir') => repite la cantidad indicada en la cadena pero desde el lado inverso.(Ojo tienes que ver la cantidad sea mayor a la cadena al que el metodo se aplca)  
+.repeat(cant, cadena or string) => Netamente se encarga de repetir la cantidad en la cadena indicada. 
+.split() => te devuelve una cadena apartir de un una cadena en el que separa segun lo del (--);
+.toLowerCase=> transforma toda la cadena u string en minusculas
+.toUpperCase=> transforma toda la cadena u string en mayusculas
+.toString()=>transforma lo que sea a string , o tambien de cadena a candena // "pedro picapiedra" ==> "pedropicapiedra"
+.tirm()=> Presenta los strings sin los espacios presentados en el original. // variantes .trimStart() and .trimEnd()
+
+//TRABAJAR CON ARRAYS
+
+.pop() => elimina el ultimo elemento de un array, toma el valor y lo muestra;
+.shift() => elimina el primer elemento de un array
+.push() => agrega el ultimo elemento de un array
+.unShift() => agrega el primer elemento de un array
+.reverse() => Invierte las posiciones de un array
+.sort() => Ordena el array de forma numerica o alfabetica
+
+.join() => Junta todo un array en un solo string --> [1,2,3,3] ==> "1233"
+.slice(incio, fin) => Crea un array aparatir de uno mas grnade , segu nel rango.
+Math.cbrt(valor) => devuelve la potencia de el valor;
+Math.random()*hasta.. => por predeterminado da un valor entre o y 1 pero se cambia en "hasta"
+.round() => devuelve el valor del entero mas sercano 0.5
+.fround() =>Devuelve el valor flotante mas preciso.
+.floor() =>Devuelve el valor redondiado al menor posible
+.trunc() =>devuelve la parte entera
+.PI - .E - .LN2 -LN10 - LOG2E - .LOG10E;
+
+'Console.' ....
+
+assert() => Aparece un mensaje de error en la consola si la afirmación es falsa. Si la afirmación es verdadera, no aparecerá nada. (NO ESTANDAR)
+clear() => Limpia la consola
+error() => Muestra un mensaje de error en la Consola Web.
+info() => Emite un mensaje informativo a la Consola Web. En Firefox y Chrome, se muestra un pequeño icono "i" junto a estos elementos en el registro de la Consola Web.
+log() => Muestra un mensaje en la consola web (o del intérprete JavaScript).
+table() => Esta función toma un argumento obligatorio: data, que debe ser un array o un objeto, y un parámetro adicional: columns y nos muestra una tabla en consola.
+warn() => Imprime un mensaje de advertencia en la Consola Web.
+dir() => Despliega una lista interactiva de las propiedades del objeto JavaScript especificado. [NO ESTANDAR]
+
+---------- funciones de conteo
+count() => Registra el número de veces que se llama a count(). Esta función toma como argumento opcional una etiqueta.
+countReset() => Resetea el contador console.count()
+
+---------- funciones de agrupación
+group() => Crea un nuevo grupo en línea en el registro de la consola web.
+groupEnd() => Remueve un grupo en línea en el registro de la consola web.
+groupCollapsed() => Crea un grupo en línea pero contraído, el usuario debe expandirlo para verlo.
+
+---------- funciones de temporización
+time() - Inicia un temporizador.
+timeEnd() => Registra el valor actual de un temporizador.
+timeLog() => Detiene un temporizador.
